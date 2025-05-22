@@ -17,11 +17,9 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 
 * A Python-based Kafka Producer simulates stock price data in real time using a CSV data feed.
 * Data is streamed to a Kafka topic hosted on an AWS EC2 instance.
-* <img width="540" alt="image" src="https://github.com/user-attachments/assets/0434cc29-23c8-4660-8a74-b23cbc1fd2fa" />
-
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/94cf79db-ceef-473d-80da-b65a195d184c" />
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/b40652e5-b678-4776-b399-645ff3023feb" />
-<img width="540" alt="image" src="https://github.com/user-attachments/assets/ffaa12e4-6853-4f5a-b12a-27b344cbb452" />
+
 
 ---
 
@@ -31,7 +29,8 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 * Kafka is configured using the EC2 public IP (`advertised.listeners`) to allow remote access.
 * Kafka handles the ingestion and transmission of messages between the Producer and Consumer.
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/c16532dd-6666-4092-9254-cdd8f1b134c3" />
-<img width="540" alt="image" src="https://github.com/user-attachments/assets/fa399b0e-dd04-4686-882d-cf7aa795d0dd" />
+<img width="1418" alt="Screenshot 2025-05-20 at 11 55 14 PM" src="https://github.com/user-attachments/assets/b74aa1d9-a3a2-47f1-b4bb-42b381f19431" />
+
 
 
 ---
@@ -40,7 +39,6 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 
 * The Kafka Consumer listens to the topic and pushes incoming messages to **Amazon S3** as JSON files.
 * `boto3` and `s3fs` libraries are used to connect and write to the S3 bucket securely.
-
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/7dafde2d-2c85-40f7-ab33-264daf7c2d26" />
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/f47cbd2a-7fe4-4f1c-af33-ff5d07b79e9d" />
 
