@@ -17,8 +17,8 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 
 * A Python-based Kafka Producer simulates stock price data in real time using a CSV data feed.
 * Data is streamed to a Kafka topic hosted on an AWS EC2 instance.
-
-
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/94cf79db-ceef-473d-80da-b65a195d184c" />
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/b40652e5-b678-4776-b399-645ff3023feb" />
 
 ---
 
@@ -27,8 +27,9 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 * Apache Kafka and Zookeeper are installed on an Amazon EC2 instance.
 * Kafka is configured using the EC2 public IP (`advertised.listeners`) to allow remote access.
 * Kafka handles the ingestion and transmission of messages between the Producer and Consumer.
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/c16532dd-6666-4092-9254-cdd8f1b134c3" />
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/fa399b0e-dd04-4686-882d-cf7aa795d0dd" />
 
-🖼️ *Suggested Image:* Terminal screenshot showing Kafka topic creation, producer & consumer streaming.
 
 ---
 
@@ -37,7 +38,8 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 * The Kafka Consumer listens to the topic and pushes incoming messages to **Amazon S3** as JSON files.
 * `boto3` and `s3fs` libraries are used to connect and write to the S3 bucket securely.
 
-🖼️ *Suggested Image:* S3 bucket UI showing streamed JSON files.
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/7dafde2d-2c85-40f7-ab33-264daf7c2d26" />
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/f47cbd2a-7fe4-4f1c-af33-ff5d07b79e9d" />
 
 ---
 
@@ -47,7 +49,7 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 * The crawler populates the AWS Glue Data Catalog with table definitions.
 * The cataloged data becomes queryable without manual schema definition.
 
-🖼️ *Suggested Image:* Glue crawler run summary and the resulting table schema.
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/d9fb293a-309c-4b07-98fa-ec59d67dbb45" />
 
 ---
 
@@ -55,8 +57,10 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 
 * Athena queries the structured stock data directly from S3 using standard SQL.
 * Users can run complex analytics — e.g., daily price averages, top gainers/losers, or volatility patterns.
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/34ee57c5-e0b8-4939-af13-763858f7ee47" />
 
-🖼️ *Suggested Image:* Screenshot of Athena query and previewed results.
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/2444f177-1210-4c6b-a873-453fb439032a" />
+
 
 ---
 
@@ -69,7 +73,6 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
   * Symbol-wise comparisons
   * Historical price movements
 
-🖼️ *Suggested Image:* Dashboard screenshot from QuickSight.
 
 ---
 
