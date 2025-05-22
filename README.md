@@ -1,9 +1,3 @@
-Great — I'll now create your **detailed Medium blog content** in the structure and tone you prefer. It will follow the exact format you're inspired by, tailored to your **Real-Time Stock Market Data Pipeline** project using **Kafka and AWS**.
-
-Let’s begin with the consolidated blog content in Medium-style formatting.
-
----
-
 # Real-Time Stock Market Data Pipeline Using Kafka and AWS
 
 ### Creating an End-to-End Streaming Infrastructure for Market Data Collection and Analytics
