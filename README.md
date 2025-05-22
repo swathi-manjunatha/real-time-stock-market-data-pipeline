@@ -28,9 +28,9 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 * Apache Kafka and Zookeeper are installed on an Amazon EC2 instance.
 * Kafka is configured using the EC2 public IP (`advertised.listeners`) to allow remote access.
 * Kafka handles the ingestion and transmission of messages between the Producer and Consumer.
-<img width="540" alt="image" src="https://github.com/user-attachments/assets/c16532dd-6666-4092-9254-cdd8f1b134c3" />
-<img width="1418" alt="Screenshot 2025-05-20 at 11 55 14 PM" src="https://github.com/user-attachments/assets/b74aa1d9-a3a2-47f1-b4bb-42b381f19431" />
 
+<img width="1418" alt="Screenshot 2025-05-20 at 11 55 14 PM" src="https://github.com/user-attachments/assets/b74aa1d9-a3a2-47f1-b4bb-42b381f19431" />
+<img width="1434" alt="Screenshot 2025-05-20 at 11 57 02 PM" src="https://github.com/user-attachments/assets/e3e03b4c-76cf-4ecf-ae15-1843635796b1" />
 
 
 ---
@@ -39,6 +39,7 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 
 * The Kafka Consumer listens to the topic and pushes incoming messages to **Amazon S3** as JSON files.
 * `boto3` and `s3fs` libraries are used to connect and write to the S3 bucket securely.
+
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/7dafde2d-2c85-40f7-ab33-264daf7c2d26" />
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/f47cbd2a-7fe4-4f1c-af33-ff5d07b79e9d" />
 
@@ -133,8 +134,10 @@ bin/kafka-console-producer.sh --topic demo_testing2 --bootstrap-server <public-i
 # Run Consumer
 bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server <public-ip>:9092
 ```
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/c56c8f81-c12a-4170-a172-7e0c9075fd6d" />
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/8382ff55-5aa1-483f-b203-a2c7cb7caf1a" />
 
-🖼️ *Suggested Image:* Kafka producer & consumer terminals side by side.
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/c16532dd-6666-4092-9254-cdd8f1b134c3" />
 
 ---
 
@@ -161,10 +164,6 @@ After setting up the pipeline:
 4. Query stock insights from Athena.
 5. Visualize in QuickSight.
 
-🖼️ *Suggested Images:*
-
-* Google Colab screenshot (producer script)
-* AWS Console (S3, Athena, QuickSight) snapshots
 
 ---
 
