@@ -181,3 +181,5 @@ After setting up the pipeline:
 This project is a powerful demonstration of how you can build a production-style **real-time analytics pipeline** using Kafka and AWS, fully deployable on cloud infrastructure, ready to handle high-velocity financial data.
 
 ---
+## Credits:
+Project inspired by tutorials from Darshil Parmar. Thanks for the guidance on real-time data pipelines.
