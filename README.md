@@ -17,8 +17,11 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 
 * A Python-based Kafka Producer simulates stock price data in real time using a CSV data feed.
 * Data is streamed to a Kafka topic hosted on an AWS EC2 instance.
+* <img width="540" alt="image" src="https://github.com/user-attachments/assets/0434cc29-23c8-4660-8a74-b23cbc1fd2fa" />
+
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/94cf79db-ceef-473d-80da-b65a195d184c" />
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/b40652e5-b678-4776-b399-645ff3023feb" />
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/ffaa12e4-6853-4f5a-b12a-27b344cbb452" />
 
 ---
 
