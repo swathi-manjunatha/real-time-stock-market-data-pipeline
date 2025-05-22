@@ -11,10 +11,11 @@ This project demonstrates how to build a robust **real-time data pipeline** for 
 ---
 
 ## ⚙️ Architecture Overview
+![Architecture](https://github.com/user-attachments/assets/c5416953-a430-448b-9393-9027f544245c)
 
 ### 1. **Stock Market Data Collection**
 
-* A Python-based Kafka Producer simulates stock price data in real time using a CSV or API feed.
+* A Python-based Kafka Producer simulates stock price data in real time using a CSV data feed.
 * Data is streamed to a Kafka topic hosted on an AWS EC2 instance.
 
 🖼️ *Suggested Image:* Code snippet or screenshot of the Kafka Producer script (Google Colab/Jupyter Notebook).
